@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="image.png">
+    <title>Launch</title>
+</head>
+<body>
+    <div id="main_container">
+        <p id="main_p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        </p>
+    </div>
+
+    <div id="info_container">
+        <h1>Be the first to know when we launch</h1>
+        <p id="info_p">
+            We’re still building. Subscribe for updates and 20% off when we launch. No spam, we promise!
+        </p>
+        <div id="mail_box">
+            <form action="#" id="mail_form">
+                <div id="mail_outline"><input type="email" id="mail" name="mail" value="Enter your mail"></div>
+                <input type="submit" value="Subscribe" id="submit">
+            </form>
+            <p id="mail_p">
+                We care about your data in our privacy policy.
+            </p>
+        </div>
+    </div>
+
+    <div id="form_box">
+        <h2>Submit form</h2>
+        
+        <form accept="#" id="submit_form">
+            <label for="name" id="label_name">Full name</label> <br/>
+            <div id="name_outline"><input type="text" id="name" name="name" value="Please write your name"></div>
+
+            <label for="submit_mail" id="label_submit_mail">Email</label>
+            <div id="submit_mail_outline"><input type="email" id="submit_mail" name="submit_mail" value="Please write your email"></div>
+
+            <div id="reccomend_box">
+                <p id="reccomend_p">Would you reccomend GeeksforGeeks to a friend?</p>
+
+                <label for="option_one">
+                    <input type="radio" name="reccomend" value="option_one" id="option_one" checked>
+                    Yes
+                </label> <br/>
+                <label for="option_two">
+                    <input type="radio" name="reccomend" value="option_two" id="option_two">
+                    Yes
+                </label> <br/>
+                <label for="option_three">
+                    <input type="radio" name="reccomend" value="option_three" id="option_three">
+                    Yes
+                </label>
+            </div>
+
+            <div id="lang_box">
+                <p>Language and frameworks known (Check all that apply)</p>
+
+                <label for="c">
+                    <input type="checkbox" id="c" name="c" value="c">
+                    C
+                </label> <br/>
+                <label for="c_plus">
+                    <input type="checkbox" id="c_plus" name="c_plus" value="c_plus">
+                    C++
+                </label> <br/>
+                <label for="java">
+                    <input type="checkbox" id="java" name="java" value="java">
+                    Java
+                </label> <br/>
+                <label for="python">
+                    <input type="checkbox" id="python" name="python" value="python" checked>
+                    Python
+                </label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

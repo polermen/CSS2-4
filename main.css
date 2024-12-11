@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main_container {
+    max-width: 1400px;
+    width: 100%;
+    height: 676px;
+    margin: 0 auto;
+    background-image: url("image.png");
+    border-radius: 33.185px;
+    padding-top: 39px;
+    padding-left: 71px;
+    padding-right: 71px;
+    margin-top: 156px;
+}
+
+#main_p {
+    vertical-align: middle;
+    color: #FFF;
+    font-family: PoetsenOne;
+    font-size: 44.452px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    max-width: 1258px;
+    width: 100%;
+    display: inline-block;
+}
+
+#info_container {
+    max-width: 1137px;
+    width: 100%;
+    border-radius: 24px;
+    background: #EBF8FE;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 32px;
+    margin-top: 115px;
+}
+
+h1 {
+    color: #181D27;
+    font-family: "Inria Sans";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -1.28px;
+}
+
+#info_p {
+    color: #535862;
+    font-family: "Instrument Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    margin-top: 24px;
+    text-align: left;
+}
+
+#mail_box {
+    max-width: 488px;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    margin-top: 24px;
+}
+
+#mail_outline {
+    display: inline-block;
+    padding: 12px 14px;
+    background-color: #FFF;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    max-width: 325px;
+    width: 100%;
+    margin-right: 24px;
+}
+
+#mail {
+    color: #717680;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+#submit {
+    padding: 12px 18px;
+    border: 2px solid #FFF;
+    background: #007CB8;
+    border-radius: 8px;
+    color: #FFF;
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: 16px;
+}
+
+#mail_p {
+    color: #535862;
+font-family: var(--Font-family-font-family-body, Inter);
+font-size: var(--Font-size-text-sm, 14px);
+font-style: normal;
+font-weight: 400;
+line-height: var(--Line-height-text-sm, 20px);
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+margin-top: 8px;
+}
+
+#form_box {
+    max-width: 546px;
+    width: 100%;
+    background-color: #EBF8FE;
+    margin: auto;
+    padding: 40px 32px;
+    margin-top: 72px;
+    height: 638px;
+    border-radius: 24px;
+    margin-bottom: 99px;
+}
+
+h2 {
+    color: #181D27;
+font-family: "Inria Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: -0.8px;
+margin-bottom: 24px;
+}
+
+#label_name {
+    color: #1B003D;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+}
+
+#name_outline {
+    margin-top: 8px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #380054;
+    max-width: 482px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#name {
+    background-color: transparent;
+    border: none;
+    color: #6D5F8B;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+width: 100%;
+}
+
+#label_submit_mail {
+    color: #1B003D;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+}
+
+#submit_mail_outline {
+    margin-top: 8px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #380054;
+    max-width: 482px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#submit_mail {
+    background-color: transparent;
+    border: none;
+    color: #6D5F8B;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+width: 100%;
+}
+
+#lang_box label, #reccomend_box label {
+    color: #6D5F8B;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+margin-bottom: 10px;
+display: inline-block;
+}
+
+#lang_box p, #reccomend_box p {
+    color: #1B003D;
+font-family: "Noto Sans Georgian";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+margin-bottom: 7px;
+}
+
+#reccomend_box {
+    max-width: 338px;
+    width: 100%;
+    height: 111px;
+    margin-bottom: 14px;
+}
+
+
